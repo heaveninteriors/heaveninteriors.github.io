@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Heaven Interiors, serving Chennai and surrounding areas including Pallavaram, Tambaram, Medavakkam, Guindy, ECR and OMR. Discover high-quality mosquito nets and blinds to enhance your living spaces. Our stylish and durable window solutions are tailored to your needs. Get a free quote today and transform your home or office with Heaven Interiors.">
+  <meta name="keywords" content="mosquito nets, blinds, window solutions, Chennai, Pallavaram, Tambaram, Medavakkam, Guindy, OMR, Heaven Interiors">
+  <title>Heaven Interiors - Quality Mosquito Nets & Blinds in Chennai</title>
+  <link rel="icon" href="images/logo.jpeg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Rajdhani", sans-serif;
+    }
+
+    p {
+      font-size: 18px;
+      letter-spacing: 1.4px;
+      line-height: 1.32;
+      padding: 18px;
+    }
+
+    p.first-letter::first-letter {
+      font-size: 42px;
+    }
+
+    h1 {
+      font-size: 30px;
+      letter-spacing: 1.6px;
+      line-height: 1.4;
+    }
+
+    h2 {
+      letter-spacing: 1.6px;
+      line-height: 1.4;
+    }
+
+    strong {
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: 30px auto;
+      column-gap: 10px;
+      background-color: rgba(44, 62, 80, 1);
+      color: white;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+    }
+
+    .logo,
+    .logo-img {
+      border-radius: 50%;
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+    .menu {
+      grid-column: 1/3;
+      text-align: center;
+      height: 0;
+      display: none;
+    }
+
+    .logo,
+    .title,
+    .menu,
+    .fa-bars {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    section:target {
+      padding-top: 55px;
+    }
+
+    .fa-bars {
+      display: inline;
+      position: absolute;
+      top: 7.5px;
+      right: 2px;
+      color: white;
+      font-size: 28px;
+      margin-right: 10px;
+      z-index: 10;
+    }
+
+    .menu a {
+      display: inline-block;
+      padding: 12px 18px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .menu a:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .menu>div:first-child {
+      margin-top: 5px;
+    }
+
+    .menu>div:last-child {
+      margin-bottom: 5px;
+    }
+
+    .grow-ani {
+      animation: grow 0.3s ease-in-out forwards;
+      display: block;
+    }
+
+    @keyframes grow {
+      from {
+        height: 0;
+        visibility: hidden;
+      }
+
+      to {
+        height: 200px;
+        visibility: visible;
+      }
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .row {
+      flex-direction: row;
+    }
+
+    .v-center {
+      align-items: center !important;
+    }
+
+    .h-center {
+      justify-content: center !important;
+    }
+
+
+    .pt-30 {
+      padding-top: 20px;
+    }
+
+    h1.form-enquiry {
+      letter-spacing: 2.8px;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 2px 8px;
+
+    }
+
+    form {
+      width: 90%;
+      background: rgba(36, 30, 78, 0.82);
+      border-radius: 6px;
+      margin: 18px;
+    }
+
+    .control {
+      margin: 16px;
+    }
+
+    label {
+      font-size: 18px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      color: #fff;
+      width: 100%;
+    }
+
+    div.label {
+      margin-bottom: 1px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      height: 30px;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+
+    textarea {
+      height: 85px;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin: 12px;
+      margin-bottom: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      padding: 20px 52px;
+      background: rgba(105, 175, 75, 0.95);
+      letter-spacing: 5px;
+      /* box-shadow: 0px 0px 8px 8px rgba(105, 175, 75, 0.5); */
+      border-radius: 100px;
+      transition: all 0.3s ease;
+
+    }
+
+    .btn:active {
+      transform: scale(0.5);
+    }
+
+    .btn:hover {
+      box-shadow: 0px 0px 12px 12px rgba(105, 175, 75, 0.3);
+    }
+
+    .toast {
+      background: rgba(105, 175, 75, 0.95);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      border-radius: 12px;
+      padding: 12px 24px;
+      animation: toast-glow 1.5s infinite;
+      color:white;
+    }
+
+    @keyframes toast-glow {
+      0% {
+        box-shadow: 0px 0px 5px 5px rgba(105, 175, 75, 0.5);
+      }
+
+      50% {
+        box-shadow: 0px 0px 10px 10px rgba(105, 175, 75, 0.6);
+      }
+
+      100% {
+        box-shadow: 0px 0px 20px 20px rgba(105, 175, 75, 0.8);
+      }
+    }
+
+    .appear {
+      animation: appear-ani 3s;
+    }
+
+    @keyframes appear-ani {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .section-1 {
+      background: #57606f;
+      color: white;
+      min-height: 100vh;
+    }
+
+    .section-0 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: rgba(36, 30, 78, 0.42);
+      color: black;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .section-2 {
+      background: #57606f;
+      color: white;
+      min-height: 100vh;
+    }
+
+    .section-3 {
+      background: #a4b0be;
+      color: rgba(0, 0, 0, 0.65);
+      margin-bottom: 25px;
+    }
+
+    /* CAROUSEL START */
+    .carousel {
+      position: relative;
+    }
+
+    .carousel_inner {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .carousel_inner::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .carousel_item {
+      position: relative;
+      float: left;
+      display: none;
+      width: 100%;
+      margin-right: -100%;
+      /*background: linear-gradient(to bottom, rgba(255,0,0,0.35),rgba(255,0,0,0.55),rgba(255,0,0,0.65));*/
+    }
+
+    /* slide effect */
+    .carousel_item__active,
+    .carousel_item__pos_prev,
+    .carousel_item__pos_next {
+      display: block;
+    }
+
+    .carousel_item__pos_prev {
+      left: -100%;
+    }
+
+    .carousel_item__pos_next {
+      left: 100%;
+    }
+
+    .carousel_item__prev {
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel_item__next {
+      transform: translateX(-100%);
+      transition: transform 0.5s ease-in-out;
+    }
+
+    /* fade effect */
+    .carousel__fade .carousel_item__pos_prev,
+    .carousel__fade .carousel_item__pos_next {
+      left: 0;
+      opacity: 0;
+    }
+
+    .carousel__fade .carousel_item__prev,
+    .carousel__fade .carousel_item__next {
+      transform: none;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel__fade .carousel_item__active.carousel_item__prev,
+    .carousel__fade .carousel_item__active.carousel_item__next {
+      opacity: 0;
+    }
+
+    /* carousel */
+    .carousel_img {
+      display: block;
+      width: 100%;
+      height: 50%;
+    }
+
+    .carousel_caption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      width: 100%;
+      height: 100%;
+      padding: 3rem 4rem;
+      text-align: center;
+      color: #fff;
+      z-index: 1;
+    }
+
+    .carousel_title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: rgba(247, 183, 49, 1);
+      border: 5px solid red;
+    }
+
+    .carousel_description {
+      margin-top: 0.75rem;
+      line-height: 150%;
+      color: white;
+      border: 5px solid green;
+    }
+
+    .carousel_indicator {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      z-index: 1;
+    }
+
+    .carousel_dot {
+      display: block;
+      padding: 0.25rem;
+      background-color: rgba(255, 255, 255, 0.25);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.5s ease-in-out;
+    }
+
+    .carousel_dot__active {
+      background-color: lightskyblue;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .carousel_control {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel_button {
+      display: block;
+      padding-inline: 1rem;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.375rem;
+      background-color: transparent;
+      color: rgba(255, 255, 255, 0.25);
+      border: none;
+      cursor: pointer;
+      transition: color 0.25s;
+      z-index: 1;
+    }
+
+    .carousel_button:hover {
+      color: rgba(135, 206, 250, 0.75);
+    }
+
+    /* CAROUSEL END */
+
+    /* REVIEW START*/
+    .review-container {
+      background: rgba(236, 240, 241, 1);
+      overflow-x: auto;
+    }
+
+    .review-section {
+      text-align: center;
+    }
+
+    .review {
+      flex: 1 1 0;
+      flex-basis: 90%;
+      margin: 10px;
+      padding: 15px;
+      border: 1.75px solid black;
+      border-radius: 12px;
+      box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.45);
+      transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .review:hover {
+      box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.45);
+      transform: scaleY(1.01);
+    }
+
+    .ratings {
+      margin-top: 15px;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    /* REVIEW END*/
+    .phone {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* FOOTER START */
+    .footer {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    .footer-item-1 {
+      padding-left: 30px;
+      padding-top: 30px;
+      line-height: 1.6;
+      letter-spacing: 2px;
+    }
+
+    .footer-item-2 {
+      padding-left: 30px;
+      padding-bottom: 20px;
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      opacity: 1;
+    }
+
+    .side i {
+      padding: 15px;
+      border: 0.25px solid #34495e;
+      background: rgba(44, 62, 80, 0.95);
+      transition: all 0.33;
+    }
+
+    .side i:hover {
+      background: rgb(167, 189, 210);
+    }
+
+    .fa-brands {
+      font-size: 24px;
+      padding-top: 10px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      transition: all 0.2s;
+    }
+
+    .fa-brands:hover {
+      transform: scale(1.2);
+    }
+
+    .fa-facebook {
+      color: #4267b2;
+    }
+
+    .fa-twitter {
+      color: #1da1f2;
+    }
+
+    .fa-instagram {
+      color: #e1306c;
+    }
+
+    .fa-pinterest {
+      color: #e60023;
+    }
+
+    .fa-youtube {
+      color: #ff0000;
+    }
+
+    .fa-whatsapp {
+      color: #25d366;
+    }
+
+    .fa-star {
+      color: rgba(241, 196, 15, 1);
+      font-size: 24px;
+    }
+
+    .sticky-bottom {
+      border-radius: 50%;
+      background: rgba(44, 62, 80, 1);
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      animation: glow 0.8s infinite;
+    }
+
+    .sticky-bottom i {
+      font-size: 24px;
+      margin: 5px;
+      animation: circle-animation 0.8s linear infinite alternate;
+    }
+
+    .pb-1 {
+      padding-bottom: 1px !important;
+    }
+
+    .pb-5 {
+      padding-bottom: 5px !important;
+    }
+
+    .pb-10 {
+      padding-bottom: 10px;
+    }
+
+    .pb-15 {
+      padding-bottom: 15px;
+    }
+
+    .video-text {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 8px 5px;
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+
+    .video-box-dimension {
+      width: 100%;
+      height: 400px;
+    }
+
+    .header-center * {
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    @keyframes circle-animation {
+      from {
+        padding: 6px;
+      }
+
+      to {
+        padding: 8px;
+      }
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 0px 0px 5px 5px rgba(22, 160, 133, 0.33);
+      }
+
+      50% {
+        box-shadow: 0px 0px 8px 8px rgba(22, 160, 133, 0.66);
+      }
+
+      100% {
+        box-shadow: 0px 0px 11px 11px rgba(22, 160, 133, 1);
+      }
+    }
+
+    /* FOOTER END */
+    .err {
+      opacity: 0;
+      color: red;
+    }
+
+    .error {
+      border: 3.5px solid red !important;
+    }
+
+    .show-error-message {
+      opacity: 1;
+    }
+
+    @media screen and (min-width: 768px) {
+
+      h1.form-enquiry {
+        padding: 6px 8px 2px;
+      }
+
+      form {
+        width: 30%;
+      }
+
+      .review {
+        flex-basis: 20%;
+      }
+
+      .nav-main-container {
+        display: flex;
+      }
+
+      .section-3 {
+        margin-bottom: 80px;
+      }
+
+      section:target {
+        padding-top: 10px;
+      }
+
+      nav {
+        display: grid;
+        grid-template-columns: 50px 250px 1fr;
+      }
+
+      .menu {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        margin-right: 20px;
+        transition: all 0.3s;
+      }
+
+      .fa-bars {
+        display: none;
+      }
+
+      .logo,
+      .title,
+      .menu,
+      .fa-bars {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .menu>div:first-child {
+        margin-top: 0px;
+      }
+
+      .menu>div:last-child {
+        margin-bottom: 0px;
+      }
+
+      .relative-container {
+        position: relative;
+      }
+
+      .footer-item-1 {
+        padding-left: 100px;
+        padding-bottom: 30px;
+      }
+
+      .footer-item-2 {
+        position: absolute;
+        right: 10px;
+      }
+
+      .video-text {
+        padding-bottom: 24px;
+      }
+
+      .video-box-dimension {
+        width: 60%;
+        height: 400px;
+      }
+
+      .pt-30 {
+        padding-top: 55px;
+      }
+
+      p {
+        font-size: 24px;
+        letter-spacing: 1.6px;
+        line-height: 1.32;
+        padding: 24px;
+      }
+
+      p.first-letter::first-letter {
+        font-size: 48px;
+      }
+
+      h1 {
+        font-size: 36px;
+        letter-spacing: 1.6px;
+        line-height: 1.4;
+      }
+
+      h2 {
+        letter-spacing: 1.6px;
+        line-height: 1.4;
+      }
+
+      strong {
+        font-size: 32px;
+        font-weight: 800;
+      }
+
+      .carousel_img {
+        display: block;
+        width: 100%;
+        height: 600px;
+      }
+
+      .sticky-bottom i {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a class="phone" href="tel:+917200387876">
+          <img class="logo-img" alt="Heaven Interiors logo" src="./images/logo.jpeg" height="38px" width="38px" />
+        </a>
+      </div>
+      <div class="title">
+        <h4 class="company-name">
+          <a class="phone" href="tel:+917200387876">HEAVEN INTERIORS</a>
+          &nbsp;&nbsp;
+        </h4>
+        <h4 class="phone-num">
+          <a class="phone" href="tel:+917200387876">+91-7200387876</a>
+        </h4>
+      </div>
+
+      <div class="menu">
+        <div><a href="./index.html" onclick="hideMenu()">HOME</a></div>
+        <div><a href="./products.html" onclick="hideMenu()">PRODUCTS</a></div>
+        <div><a href="./index.html#about-us" onclick="hideMenu()">ABOUT US</a></div>
+        <div><a href="./index.html#contact-us" onclick="hideMenu()">CONTACT US</a></div>
+      </div>
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+    </nav>
+    <div id="car-container" class="car-container">
+      <div class="carousel">
+        <div class="carousel_inner">
+          <div class="carousel_item carousel_item__active">
+            <img src="./images/b1.jpg" alt="carousel image 1" class="carousel_img" />
+          </div>
+          <div class="carousel_item">
+            <img src="./images/b2.jpg" alt="carousel image 2" class="carousel_img" />
+          </div>
+          <div class="carousel_item">
+            <img src="./images/b3.jpg" alt="carousel image 3" class="carousel_img" />
+          </div>
+        </div>
+
+        <div class="carousel_indicator">
+          <button class="carousel_dot carousel_dot__active"></button>
+          <button class="carousel_dot"></button>
+          <button class="carousel_dot"></button>
+        </div>
+
+        <div class="carousel_control">
+          <button class="carousel_button carousel_button__prev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel_button carousel_button__next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section id="about-us" class="section-1">
+      <p class="first-letter pb-1 pt-30">
+        Welcome to Heaven Interiors, where we believe that your home should be a sanctuary of comfort and tranquility.
+        Our passion lies in creating spaces that offer both elegance and protection, and our premium mosquito nets are a
+        testament to that commitment. With a seamless blend of craftsmanship and functionality, our mosquito nets not
+        only elevate the aesthetics of your living spaces but also provide a secure shield against unwanted intruders.
+        Explore our exquisite range and discover how Heaven Interiors can transform your nights into peaceful,
+        uninterrupted dreams.
+      </p>
+
+      <p class="pb-1">
+        At Heaven Interiors, we take pride in offering mosquito nets that redefine comfort and style. Our nets are
+        meticulously crafted to ensure unparalleled quality and beauty. Whether you're looking to safeguard your
+        family's health, add an element of sophistication to your interior decor, or both, our mosquito nets have you
+        covered. With easy installation and customizable options, you can trust that Heaven Interiors provides the
+        perfect solution for a serene and bug-free living experience.
+      </p>
+      <p class="pb-15">
+        Have questions or need assistance in choosing the ideal mosquito net for your home? At Heaven Interiors, we're
+        dedicated to ensuring your satisfaction. Our friendly and knowledgeable team is just a click or call away. Reach
+        out to us today to discuss your requirements, request customization, or get expert advice on creating a peaceful
+        haven within your living spaces. We're here to help you make the most of our premium mosquito nets and create a
+        heavenly environment right in your home. Contact Heaven Interiors, and experience comfort and protection like
+        never before.
+      </p>
+    </section>
+
+    <section id="contact-us" class="section-0">
+      <div class="toast">
+        <h2>Message Sent.</h2>
+      </div>
+      <form>
+        <h1 class="form-enquiry">Enquiry</h1>
+        <div class="control">
+          <div class="label">
+            <label>NAME</label>
+          </div>
+          <div class="textbox">
+            <span id="error-name" class="err error-name">Please enter your name.</span>
+            <input id="name" type="text" class="text-box" onclick="removeNameError()" />
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="label">
+            <label>PHONE</label>
+          </div>
+
+          <div class="textbox">
+            <span id="error-phone" class="err error-phone">Please enter your 10 digits valid phone number.</span>
+            <input id="phone" type="text" class="text-box" onclick="removePhoneError()" />
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="label">
+            <label>EMAIL</label>
+          </div>
+          <div class="textbox">
+            <span id="error-email" class="err error-email">Please enter your valid email.</span>
+            <input id="email" type="text" class="text-box" placeholder="OPTIONAL" onclick="removeEmailError()" />
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="label">
+            <label>MESSAGE</label>
+          </div>
+          <div class="textarea">
+            <span class="err">&nbsp;</span>
+            <textarea name="textarea" id="textarea" placeholder="OPTIONAL"></textarea>
+          </div>
+        </div>
+        <div class="btn-container">
+          <a class="btn" onclick="submit(); return false;">SUBMIT</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="section-2 flex-container h-center v-center" style="flex-direction:column !important;">
+      <h2 class="video-text">Experience Heavenly Comfort with Our Mosquito Nets</h2>
+      <iframe class="video-box-dimension" src="https://www.youtube.com/embed/plR9QPGuN7E" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+
+    <section id="review-container" class="section-3 review-container">
+      <div class="header-center pb-15">
+        <h2>CUSTOMER REVIEW</h2>
+      </div>
+      <div class="flex-container review-section">
+        <div class="review">
+          <p>Excellent customer service and completed everything on time.</p>
+          <br />
+          <div class="right">- Ravi</div>
+          <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="review">
+          <p>
+            All the items are of great quality at an affordable price than
+            others.I really recommend them.
+          </p>
+          <br />
+          <div class="right">- Krishnamoorthy</div>
+          <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="review">
+          <p>
+            Their product designs are pleasing. Look and feel of the products
+            are nice.
+          </p>
+          <br />
+          <div class="right">- Aishwarya</div>
+          <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="review">
+          <p>
+            It adds elegance to my bedroom decor.Their nets are durable and
+            didn't snag.
+          </p>
+          <br />
+          <div class="right">- Ayush</div>
+          <div class="ratings">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="flex-container v-center relative-container">
+        <div class="footer-item-1">
+          <h2>HEAVEN INTERIORS</h2>
+          <div class="address">
+            <h3>Dr.Ambedkar puratchi nagar,</h3>
+            <h3>No. 16, Thanthai Periyar street,</h3>
+            <h3>Perungudi,</h3>
+            <h3>Chennai - 600096</h3>
+            <h3>
+              <a class="phone" href="tel:+917200387876">+91-7200387876</a>
+            </h3>
+          </div>
+        </div>
+        <div class="social footer-item-2">
+          <a href="https://www.facebook.com/people/Heaven-mosquito-screens-and-blinds/100085956765494/"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://instagram.com/heaven_interiors__?igshid=MzNlNGNkZWQ4Mg=="><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@heaveninteriors8688"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=917200387876">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <div class="social sticky-bottom flex-container v-center h-center">
+        <a href="https://api.whatsapp.com/send?phone=917200387876">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!--
+      <div class="social side">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    
+      <div class="social sticky-bottom">
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>-->
+  </div>
+
+  <script>
+    let onSlide = false;
+
+    window.addEventListener("load", () => {
+      autoSlide();
+
+      const dots = document.querySelectorAll(".carousel_dot");
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].addEventListener("click", () => slide(i));
+      }
+
+      const buttonPrev = document.querySelector(".carousel_button__prev");
+      const buttonNext = document.querySelector(".carousel_button__next");
+      buttonPrev.addEventListener("click", () =>
+        slide(getItemActiveIndex() - 1)
+      );
+      buttonNext.addEventListener("click", () =>
+        slide(getItemActiveIndex() + 1)
+      );
+    });
+
+    function autoSlide() {
+      setInterval(() => {
+        slide(getItemActiveIndex() + 1);
+      }, 3000); // slide speed = 3s
+    }
+
+    function slide(toIndex) {
+      if (onSlide) return;
+      onSlide = true;
+
+      const itemsArray = Array.from(
+        document.querySelectorAll(".carousel_item")
+      );
+      const itemActive = document.querySelector(".carousel_item__active");
+      const itemActiveIndex = itemsArray.indexOf(itemActive);
+      let newItemActive = null;
+
+      if (toIndex > itemActiveIndex) {
+        // check if toIndex exceeds the number of carousel items
+        if (toIndex >= itemsArray.length) {
+          toIndex = 0;
+        }
+
+        newItemActive = itemsArray[toIndex];
+
+        // start transition
+        newItemActive.classList.add("carousel_item__pos_next");
+        setTimeout(() => {
+          newItemActive.classList.add("carousel_item__next");
+          itemActive.classList.add("carousel_item__next");
+        }, 20);
+      } else {
+        // check if toIndex exceeds the number of carousel items
+        if (toIndex < 0) {
+          toIndex = itemsArray.length - 1;
+        }
+
+        newItemActive = itemsArray[toIndex];
+
+        // start transition
+        newItemActive.classList.add("carousel_item__pos_prev");
+        setTimeout(() => {
+          newItemActive.classList.add("carousel_item__prev");
+          itemActive.classList.add("carousel_item__prev");
+        }, 20);
+      }
+
+      // remove all transition class and switch active class
+      newItemActive.addEventListener(
+        "transitionend",
+        () => {
+          itemActive.className = "carousel_item";
+          newItemActive.className = "carousel_item carousel_item__active";
+          onSlide = false;
+        },
+        {
+          once: true,
+        }
+      );
+
+      slideIndicator(toIndex);
+    }
+
+    function getItemActiveIndex() {
+      const itemsArray = Array.from(
+        document.querySelectorAll(".carousel_item")
+      );
+      const itemActive = document.querySelector(".carousel_item__active");
+      const itemActiveIndex = itemsArray.indexOf(itemActive);
+      return itemActiveIndex;
+    }
+
+    function slideIndicator(toIndex) {
+      const dots = document.querySelectorAll(".carousel_dot");
+      const dotActive = document.querySelector(".carousel_dot__active");
+      const newDotActive = dots[toIndex];
+
+      dotActive.classList.remove("carousel_dot__active");
+      newDotActive.classList.add("carousel_dot__active");
+    }
+    function toggleMenu() {
+      var navs = document.querySelectorAll("nav .menu");
+      if (navs[0].classList.contains("grow-ani")) {
+        navs[0].classList.remove("grow-ani");
+      } else {
+        navs[0].classList.add("grow-ani");
+      }
+    }
+
+    function hideMenu() {
+      var navs = document.querySelectorAll("nav .menu");
+      navs[0].classList.remove("grow-ani");
+    }
+
+    function validateForm(name, phone, email, message) {
+      var name = document.getElementById("name");
+      var phone = document.getElementById("phone");
+      var email = document.getElementById("email");
+      var errorName = document.getElementById("error-name");
+      var errorPhone = document.getElementById("error-phone");
+      var errorEmail = document.getElementById("error-email");
+      var emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      var emailValue = email.value.trim()
+      var check = true;
+      if (name.value.trim() == "") {
+        name.classList.add("error");
+        errorName.classList.add("show-error-message");
+        check = false;
+      }
+      if (!(/^\d{10}$/.test(phone.value.trim()))) {
+        phone.classList.add("error");
+        errorPhone.classList.add("show-error-message");
+        check = false;
+      }
+      if (emailValue != "" && !emailRegex.test(emailValue)) {
+        email.classList.add("error");
+        errorEmail.classList.add("show-error-message");
+        check = false;
+      }
+
+      return check;
+    }
+    function removeNameError() {
+      document.getElementById("name").classList.remove('error')
+      document.getElementById("error-name").classList.remove('show-error-message')
+    }
+    function removePhoneError() {
+      document.getElementById("phone").classList.remove('error')
+      document.getElementById("error-phone").classList.remove('show-error-message')
+    }
+    function removeEmailError() {
+      document.getElementById("email").classList.remove('error')
+      document.getElementById("error-email").classList.remove('show-error-message')
+    }
+
+    function submit() {
+      console.log('submit clicked')
+      var name = document.getElementById("name").value;
+      var phone = document.getElementById("phone").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("textarea").value;
+      var flag = validateForm(name, phone, email, message);
+      if (flag) {
+        document.getElementById("name").classList.remove('error')
+        document.getElementById("error-name").classList.remove('show-error-message')
+        document.getElementById("phone").classList.remove('error')
+        document.getElementById("error-phone").classList.remove('show-error-message')
+        document.getElementById("email").classList.remove('error')
+        document.getElementById("error-email").classList.remove('show-error-message')
+      } else {
+        return false;
+      }
+      name = btoa(name);
+      phone = btoa(phone);
+      email = btoa(email);
+      message = btoa(message);
+      var myHeaders = new Headers();
+      var key = +new Date - 600000000000
+      var auth = this.crypto.randomUUID();
+      myHeaders.append("Authorization", "Bearer " + auth);
+      myHeaders.append("key-validation", key);
+      myHeaders.append("Content-Type", "application/json");
+
+      var dt = {
+        "cn": name,
+        "ce": email,
+        "cp": phone,
+        "cm": message
+      }
+      var raw = JSON.stringify(dt);
+      //console.log('RAW BODY:', raw)
+      var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+      };
+      document.body.style.cursor='wait'
+      fetch("https://3p63h0vck0.execute-api.ap-south-1.amazonaws.com/default/sendmail", requestOptions)
+        .then(response => response.text())
+        .then(result => {
+          let data = JSON.parse(result)
+          if (data['statusCode'] == 200) {
+            document.querySelector(".toast").classList.add("appear");
+            setTimeout(() => { 
+              document.querySelector(".toast").classList.remove("appear"); 
+              document.body.style.cursor='default'
+            }, 1500)
+          }
+        })
+        .catch(error => console.log('error', error));
+
+    }
+
+  </script>
+</body>
+
+</html>
